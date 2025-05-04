@@ -1,0 +1,26 @@
+.navbar {
+  transition: background 0.3s ease-in-out;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+
+.btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
